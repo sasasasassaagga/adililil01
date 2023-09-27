@@ -1,0 +1,71 @@
+body{
+    background-image: url("aaa.jpg");
+    background-size: cover;
+    opacity: 50%;
+}
+
+p{
+    font-size: 2.5em;
+    color: white;
+    font-family: sans-serif;
+}
+
+.topleft{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 50%;
+}
+
+.topright{
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 50%;
+}
+ 
+.bottomleft{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 50%;
+}
+
+.bottomright{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 50%;
+}
+
+.center{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    opacity: 50%;
+}
+.блок1{
+    top: 45%;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+.блок2{
+    top: 45%;
+    right: 0;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+.контейнер1{
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+.контейнер2{
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
